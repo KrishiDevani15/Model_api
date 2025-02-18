@@ -14,7 +14,6 @@ app = FastAPI()
 
 models_dict: Dict[str, List[str]] = {
     "OpenAi": ["gpt-4o", "gpt-4o-mini"],
-    "Perplexity": ["llama-3.1-sonar-small-128k-online","llama-3.1-sonar-large-128k-online","llama-3.1-sonar-huge-128k-online"],
     "DeepSeek ": ["deepseek-r1-distill-llama-70b"],
     "Google": ["gemma2-9b-it"],
     "Meta": ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"],
